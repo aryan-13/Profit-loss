@@ -25,7 +25,7 @@ function clickhandler() {
 	if (e < c) {
 		var nu = ((c * d - e * d) / (c * d)) * 100;
 		var n = nu.toFixed(2);
-		op.innerHTML = `You made a loss of: ${
+		op.innerHTML = `You made a loss of: ₹${
 			c * d - e * d
 		} <br> You lost: ${n} % <br> 😕😕`;
 		document.body.style.backgroundColor = '#ea7676';
@@ -37,7 +37,7 @@ function clickhandler() {
 	} else {
 		var mu = ((e * d - c * d) / (c * d)) * 100;
 		var m = mu.toFixed(2);
-		op.innerHTML = `You made a profit of: ${
+		op.innerHTML = `You made a profit of: ₹${
 			e * d - c * d
 		} <br> You gained: ${m} % <br> 💸💸`;
 		cont.style.backgroundColor = '#8dea76';
